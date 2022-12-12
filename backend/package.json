@@ -1,0 +1,51 @@
+{
+  "name": "kltn-ntt-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon node src/server.js",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/buimanh17112001/kltn-ntt-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/buimanh17112001/kltn-ntt-api/issues"
+  },
+  "homepage": "https://gitlab.com/buimanh17112001/kltn-ntt-api#readme",
+  "dependencies": {
+    "apos-to-lex-form": "^1.0.5",
+    "axios": "^0.27.2",
+    "body-parser": "^1.19.1",
+    "cloudinary": "^1.28.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dateformat": "^2.2.0",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.6",
+    "natural": "^5.2.3",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16",
+    "paypal-rest-sdk": "^1.8.1",
+    "qs": "^6.10.5",
+    "sentiment": "^5.0.2",
+    "sha256": "^0.2.0",
+    "socket.io": "^4.1.2",
+    "spelling-corrector": "^3.0.0",
+    "stopword": "^2.0.2",
+    "winston": "^3.4.0",
+    "ws": "^8.4.2"
+  }
+}
